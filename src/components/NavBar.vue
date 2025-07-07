@@ -12,16 +12,31 @@
 <style scoped>
 nav {
   display: flex;
-  gap: 1rem;
-  background: #eee;
-  padding: 1rem;
+  justify-content: center;
+  gap: 1.5rem;
+  background: #f8f9fa;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
+
 a {
   text-decoration: none;
-  color: #333;
+  color: #444;
+  font-weight: 500;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
+
+a:hover {
+  background-color: #e2f0ec;
+  color: #2c7a7b;
+}
+
 .router-link-active {
-  font-weight: bold;
-  color: #42b983;
+  font-weight: 600;
+  color: #2c7a7b;
+  background-color: #c6f6d5;
 }
 </style>
