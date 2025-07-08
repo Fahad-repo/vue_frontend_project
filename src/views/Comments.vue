@@ -4,7 +4,7 @@
     <div v-if="loading">Loading...</div>
     <div v-else class="grid">
       <div v-for="comment in comments" :key="comment.id" class="card">
-        <h3>{{ comment.title }}</h3>
+        <h3>{{ comment.name }}</h3>
         <p>{{ comment.body }}</p>
       </div>
     </div>
@@ -68,6 +68,6 @@ h1 {
   text-align: center;
   font-size: 2rem;
   margin: 1rem 0;
-  color: #2c3e50;
+  color: #38b2ac;
 }
 </style>

@@ -5,7 +5,6 @@
     <div v-else class="grid">
       <div v-for="todo in todos" :key="todo.id" class="card">
         <h3>{{ todo.title }}</h3>
-        <p>{{ todo.body }}</p>
       </div>
     </div>
   </div>
@@ -68,6 +67,6 @@ h1 {
   text-align: center;
   font-size: 2rem;
   margin: 1rem 0;
-  color: #2c3e50;
+  color: #38b2ac;
 }
 </style>
